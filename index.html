@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="A simple and professional student study planner built using HTML and CSS.">
+
+    <title>StudyPlanner | Student Study Planner</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="logo">
+            📚 StudyPlanner
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#subjects">Subjects</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#progress">Progress</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="welcome">👋 Welcome back, Student!</p>
+
+                <h1>
+                    Plan your studies.
+                    <span>Achieve your goals.</span>
+                </h1>
+
+                <p>
+                    Organize your subjects, plan your study sessions,
+                    and stay consistent with your learning goals.
+                </p>
+
+                <a href="#schedule" class="primary-btn">
+                    Start Planning
+                </a>
+
+            </div>
+
+            <div class="hero-card">
+                <div class="book-icon">📖</div>
+                <h3>Today's Focus</h3>
+                <p>Python Programming</p>
+                <div class="focus-time">⏱ 1 Hour</div>
+            </div>
+
+        </section>
+
+
+        <!-- Dashboard -->
+        <section class="section">
+
+            <div class="section-title">
+                <p>OVERVIEW</p>
+                <h2>Today's Progress</h2>
+            </div>
+
+            <div class="stats">
+
+                <div class="stat-card">
+                    <div class="stat-icon">📚</div>
+                    <h3>5</h3>
+                    <p>Subjects</p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">✅</div>
+                    <h3>8</h3>
+                    <p>Topics Completed</p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">⏱️</div>
+                    <h3>3.5</h3>
+                    <p>Study Hours</p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">🔥</div>
+                    <h3>7</h3>
+                    <p>Day Streak</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Subjects -->
+        <section id="subjects" class="section">
+
+            <div class="section-title">
+                <p>LEARNING</p>
+                <h2>My Subjects</h2>
+            </div>
+
+            <div class="subjects-grid">
+
+                <div class="subject-card">
+                    <div class="subject-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>12 Topics</p>
+
+                    <div class="progress">
+                        <div class="progress-fill python"></div>
+                    </div>
+
+                    <span>75% completed</span>
+                </div>
+
+
+                <div class="subject-card">
+                    <div class="subject-icon">🤖</div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>10 Topics</p>
+
+                    <div class="progress">
+                        <div class="progress-fill ai"></div>
+                    </div>
+
+                    <span>60% completed</span>
+                </div>
+
+
+                <div class="subject-card">
+                    <div class="subject-icon">📐</div>
+                    <h3>Mathematics</h3>
+                    <p>15 Topics</p>
+
+                    <div class="progress">
+                        <div class="progress-fill maths"></div>
+                    </div>
+
+                    <span>50% completed</span>
+                </div>
+
+
+                <div class="subject-card">
+                    <div class="subject-icon">🧪</div>
+                    <h3>Chemistry</h3>
+                    <p>10 Topics</p>
+
+                    <div class="progress">
+                        <div class="progress-fill chemistry"></div>
+                    </div>
+
+                    <span>40% completed</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Schedule -->
+        <section id="schedule" class="section">
+
+            <div class="section-title">
+                <p>PLAN</p>
+                <h2>Today's Study Schedule</h2>
+            </div>
+
+            <div class="schedule">
+
+                <div class="schedule-item">
+                    <div class="time">6:00 PM</div>
+
+                    <div class="schedule-content">
+                        <h3>Python File Handling</h3>
+                        <p>📚 Python • ⏱ 1 Hour</p>
+                    </div>
+
+                    <span class="status completed">
+                        Completed
+                    </span>
+                </div>
+
+
+                <div class="schedule-item">
+                    <div class="time">7:30 PM</div>
+
+                    <div class="schedule-content">
+                        <h3>AI Search Algorithms</h3>
+                        <p>🤖 Artificial Intelligence • ⏱ 1.5 Hours</p>
+                    </div>
+
+                    <span class="status pending">
+                        Pending
+                    </span>
+                </div>
+
+
+                <div class="schedule-item">
+                    <div class="time">9:30 PM</div>
+
+                    <div class="schedule-content">
+                        <h3>Mathematics Revision</h3>
+                        <p>📐 Mathematics • ⏱ 1 Hour</p>
+                    </div>
+
+                    <span class="status pending">
+                        Pending
+                    </span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Progress -->
+        <section id="progress" class="section">
+
+            <div class="section-title">
+                <p>PERFORMANCE</p>
+                <h2>My Progress</h2>
+            </div>
+
+            <div class="progress-section">
+
+                <div class="overall-progress">
+
+                    <div class="progress-heading">
+                        <h3>Overall Progress</h3>
+                        <strong>65%</strong>
+                    </div>
+
+                    <div class="large-progress">
+                        <div class="large-progress-fill"></div>
+                    </div>
+
+                    <p>
+                        Keep going! You're making great progress.
+                    </p>
+
+                </div
